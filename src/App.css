@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body{
+  padding-top: 5rem;
+}
+:root {
+  --primary-color: #af460f;
+  --secondary-color:#fe8761;
+  --main-color:#fed39f;
+}
+.primary-color{
+  background-color: var(--primary-color) !important;
+}
+.secondary-color{
+  background-color: var(--secondary-color) !important;
+}
+.main-color{
+  background-color: var(--main-color) !important;
+  border:0;
+}
+.primary-text{
+  color: var(--primary-color) !important;
+}
+.secondary-text{
+  color: var(--secondary-color) !important;
+}
+.secondary-text:hover{
+  color: var(--primary-color) !important;
+}
+.main-text{
+  color: var(--main-color) !important;
+}
+.text-transform{
+  text-transform: uppercase;
+}
+.page-item.active .page-link{
+  background-color: var(--primary-color) !important;
+  color: var(--main-color) !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: -1px 2px 5px 1px rgba(254,135,97,0.65) !important;
+}
+.page-link{
+  cursor: pointer;
+  margin-left: 15px;
+}
+.page-link:focus{
+  box-shadow: none;
+}
+.material-icons{
+  cursor: pointer;
+}
+button{
+  border:0 !important;
+}
+.form-control:focus{
+  box-shadow: 1px 1px 5px 2px rgba(254,135,97,0.58);
+  border: 0;
+}
+.form-group{
+  width:100%;
+}
+.form-group label{
+  width: 200px;
+}
+.form-control{
+  display: inline-block;
+  width: calc(100% - 200px);
+}
+
+.card-body .form-group .form-control{
+  width: 100%;
+}
